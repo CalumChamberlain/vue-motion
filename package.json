@@ -1,5 +1,5 @@
 {
-    "name": "vue-motion",
+    "name": "motion-vuejs",
     "version": "0.0.1",
     "description": "A simple sheet component built with Vue.js",
     "type": "module",
