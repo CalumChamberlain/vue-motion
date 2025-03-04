@@ -1,6 +1,6 @@
 {
     "name": "motion-vuejs",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "A simple sheet component built with Vue.js",
     "type": "module",
     "files": [
@@ -11,6 +11,7 @@
     "module": "dist/vue-motion.js",
     "exports": {
         ".": {
+            "types": "./dist/index.d.ts",
             "import": "./dist/vue-motion.js",
             "require": "./dist/vue-motion.umd.cjs",
             "default": "./dist/vue-motion.umd.cjs"
