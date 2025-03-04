@@ -255,7 +255,7 @@ const animateIn = async (element, done) => {
 
 <template>
     <Transition :css="false" @leave="animateOut" @enter="animateIn" appear>
-        <component :is="as" v-if="showElement" ref="elementRef">
+        <component :is="as" ref="elementRef">
             <slot />
         </component>
     </Transition>

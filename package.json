@@ -1,12 +1,13 @@
 {
     "name": "motion-vuejs",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "description": "A simple sheet component built with Vue.js",
     "type": "module",
     "files": [
         "dist"
     ],
     "main": "dist/vue-motion.umd.cjs",
+    "types": "dist/index.d.ts",
     "module": "dist/vue-motion.js",
     "exports": {
         ".": {
@@ -18,7 +19,7 @@
     },
     "scripts": {
         "dev": "vite",
-        "build": "vite build --mode lib",
+        "build": "vite build --mode lib && cp src/index.d.ts dist/index.d.ts",
         "preview": "vite preview"
     },
     "dependencies": {
